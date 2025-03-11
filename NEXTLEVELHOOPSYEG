@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Level Hoops</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        .btn {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Next Level Hoops
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#registration">Register</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Next Level Hoops</h2>
+        <p>Elite basketball training designed to take your game to the next level.</p>
+    </section>
+    <section id="programs">
+        <h2>Programs</h2>
+        <p>Our training sessions focus on skill development, teamwork, and competitive play.</p>
+    </section>
+    <section id="registration">
+        <h2>Register Now</h2>
+        <p>Sign up for our upcoming camps and sessions.</p>
+        <a href="#" class="btn">Register</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: nextlevelhoopsyeg@gmail.com</p>
+        <p>Phone: 780-224-3523</p>
+    </section>
+    <footer>
+        &copy; 2025 Next Level Hoops. All rights reserved.
+    </footer>
+</body>
+</html>
